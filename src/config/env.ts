@@ -9,8 +9,6 @@ const envSchema = z.object({
   MAX_DAILY_LOSS_USD: z.string().default("25"),
   TAKE_PROFIT_PCT: z.string().default("12"),
   STOP_LOSS_PCT: z.string().default("6"),
-  PRIVATE_KEY: z.string().default("BASE58_OR_HEX_PRIVATE_KEY"),
-  DRY_RUN: z.string().default("true"),
   RPC_URL: z.string().default("https://api.mainnet-beta.solana.com"),
   INPUT_MINT: z.string().default("So11111111111111111111111111111111111111112"),
   OUTPUT_MINT: z.string().default("USDC111111111111111111111111111111111111111"),
